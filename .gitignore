@@ -1,0 +1,68 @@
+# ============================================================
+# Python bytecode cache — auto-generated, not needed in git
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ============================================================
+# ChromaDB local vector database — contains your private PDF
+# data embeddings. Do NOT push to GitHub.
+# ============================================================
+chroma_db/
+
+# ============================================================
+# Uploaded PDF files — may contain sensitive/personal data
+# ============================================================
+*.pdf
+uploads/
+
+# ============================================================
+# Environment variables — API keys, secrets, config values
+# Never commit these to version control
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================================
+# Streamlit config & secrets — may contain sensitive values
+# ============================================================
+.streamlit/secrets.toml
+
+# ============================================================
+# OS-generated files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# IDE / Editor config
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Python virtual environments — large, always recreatable
+# ============================================================
+venv/
+.venv/
+env/
+ENV/
+
+# ============================================================
+# Logs and temp files
+# ============================================================
+*.log
+*.tmp
+*.bak
+
+# Implementation Plan
+implementation_plan.md

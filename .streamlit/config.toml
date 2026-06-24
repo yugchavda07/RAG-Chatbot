@@ -1,0 +1,14 @@
+# Streamlit configuration
+# This folder is gitignored by default in .gitignore (secrets.toml only)
+
+# If you want to configure the Ollama URL at startup without the UI,
+# create a secrets.toml file here:
+#
+# [ollama]
+# base_url = "http://localhost:11434"
+#
+# Then read it in app.py with:
+#   st.secrets["ollama"]["base_url"]
+#
+# IMPORTANT: secrets.toml is gitignored. Never hardcode credentials in source files.
+
